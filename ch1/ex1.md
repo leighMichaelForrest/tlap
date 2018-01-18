@@ -30,9 +30,12 @@ of picture tiles.
 ## Sliding Tile Strategy
 
 If the rows are greater than one:
+
     bubble up the tiles that belong in the first row
-    Try to arrange the tiles in order
-    work on the next row with the previous steps.
+
+    Try to arrange the tiles in order.
+
+    work on the next row with the previous steps, while keeping the previous row in order.
 
 
 ## Sam Loyd
