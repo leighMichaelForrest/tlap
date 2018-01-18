@@ -3,11 +3,17 @@
 ## Sudoku
 
 while puzzle is not solved:
+
     pick the box with the most numbers set
+
     get a list of the numbers not in the box
+
     choose a row or column with the most solutions in the row or column
+
     add a number to the empty box where the solution fits
+
     check the add
+
     if box does not have all 9 numbers, continue
 
 
